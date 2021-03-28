@@ -1,8 +1,8 @@
 .burger__wrapper {
   width: 100%;
   position: absolute;
-  top: 5%;
-  right: 15%;
+  top: 50px;
+  right: 50px;
 }
 
 .burger__btn {
@@ -92,11 +92,33 @@
   opacity: 1;
 }
 
+@media screen and (min-width:425px){
+  .burger__wrapper {
+    right: 130px;
+    top: 30px;
+  }
+}
+
+@media screen and (min-width:580px){
+  .burger__wrapper {
+    right: 220px;
+    top: 10%;
+  }
+}
+
 @media screen and (min-width:768px){
   .burger__wrapper {
     right: 5%;
+    top: 5%;
   }
   .sidebar {
     justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width:768px){
+  .burger__wrapper {
+    right: 25%;
+    top: 5%;
   }
 }
