@@ -183,7 +183,7 @@
   
   .gallery-section__four { 
     min-width: 30%;
-    min-height: 490px;
+    min-height: 380px;
     background-image: url(../image/gallery/1440/Bitmap4.png);
   }
 
@@ -201,8 +201,24 @@
   
   .gallery-section__seven { 
     width: 30%;
-    min-height: 490px;
+    min-height: 385px;
     background-image: url(../image/gallery/1440/Bitmap7.png);
-    margin-top: -45px;
+    margin-top: -40px;
+  }
+}
+
+
+@media screen and (min-width:1440px){
+  .gallery-section__four { 
+    min-width: 30%;
+    min-height: 525px;
+    background-image: url(../image/gallery/1440/Bitmap4.png);
+  }
+  
+  .gallery-section__seven { 
+    width: 30%;
+    min-height: 520px;
+    background-image: url(../image/gallery/1440/Bitmap7.png);
+    margin-top: -40px;
   }
 }
