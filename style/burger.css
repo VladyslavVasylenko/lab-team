@@ -94,21 +94,21 @@
 
 @media screen and (min-width:425px){
   .burger__wrapper {
-    right: 130px;
+    right: 5%;
     top: 30px;
   }
 }
 
 @media screen and (min-width:580px){
   .burger__wrapper {
-    right: 220px;
+    right: 5%;
     top: 10%;
   }
 }
 
 @media screen and (min-width:768px){
   .burger__wrapper {
-    right: 5%;
+    right: 3%;
     top: 5%;
   }
   .sidebar {

@@ -207,6 +207,33 @@
   }
 }
 
+@media screen and (min-width:1300px){
+  .gallery-section__five { 
+    width: 65%;
+    min-height: 310px;
+    background-image: url(../image/gallery/1440/Bitmap5.png);
+  }
+
+  .gallery-section__six { 
+    width: 65%;
+    min-height: 310px;
+    background-image: url(../image/gallery/1440/Bitmap6.png);
+  }
+
+  .gallery-section__four { 
+    min-width: 30%;
+    min-height: 480px;
+    background-image: url(../image/gallery/1440/Bitmap4.png);
+  }
+  
+  .gallery-section__seven { 
+    width: 30%;
+    min-height: 480px;
+    background-image: url(../image/gallery/1440/Bitmap7.png);
+    margin-top: -40px;
+  }
+}
+
 
 @media screen and (min-width:1440px){
   .gallery-section__four { 
