@@ -72,7 +72,6 @@
   text-decoration: none;
   display: block;
   font-size: 14px;
-  border: 2px solid black;
   border-radius: 20px;
   padding: 5px 15px;
   transition: 0.2s ease-in;
@@ -101,7 +100,6 @@
 
 @media screen and (min-width:580px){
   .burger__wrapper {
-    right: 5%;
     top: 10%;
   }
 }
@@ -118,7 +116,41 @@
 
 @media screen and (min-width:768px){
   .burger__wrapper {
-    right: 25%;
     top: 5%;
+    right: 10%;
+  }
+  
+  .logo__wrapper {
+    display: none;
+  }
+
+  .sidebar {
+    opacity: 1;
+  }
+  
+  .sidebar__link {
+    color: rgb(255, 255, 255);
+  }
+  
+  .sidebar__link:hover {
+    background-color: #726d6d5e;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px black;
+  }
+  
+  .defchbox:checked ~ .sidebar {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width:1440px){
+  .burger__wrapper {
+    top: 5%;
+    right: 25%;
+  }
+
+  .sidebar__link {
+    margin: 0 0 0 1%;
   }
 }
